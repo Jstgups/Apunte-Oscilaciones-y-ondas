@@ -52,7 +52,7 @@ Una onda es un fenómeno físico el cual se describe la propagación de una pert
 
 Alguna características importantes de las ondas son:\\
 
-Se presentan como eventos periódicos (se repite un ciclo cada cierto tiempo)
+Se presentan como eventos periódicos(se repite un ciclo cada cierto tiempo)
 
 \begin{figure}[h]
     \centering
@@ -61,7 +61,7 @@ Se presentan como eventos periódicos (se repite un ciclo cada cierto tiempo)
 \begin{itemize}
     \item \textbf{Amplitud }\((y)\):  Es la distancia vertical entre una cresta o valle y el punto de equilibrio de la onda. Nótese que pueden existir ondas cuya amplitud sea variable, es decir, crezca o decrezca con el paso del tiempo.
     \item \textbf{Longitud de onda }\((\lambda)\): Es la distancia que hay entre el mismo punto de dos ondulaciones consecutivas, o la distancia entre dos crestas, valles o tres nodos consecutivos.
-    \item \textbf{Periodo }\((T)\): Es el tiempo empleado en completar una longitud de onda (oscilación completa).
+    \item \textbf{Periodo }\((T)\): Es el tiempo empleado en completar una longitud de onda(oscilación completa).
     \item \textbf{Frecuencia }\((f)\): Es el número de periodos por unidad de tiempo. Es decir: el número de veces que es repetida dicha vibración por unidad de tiempo.
     \item \textbf{Velocidad de propagación }\((v)\): Es la velocidad a la que se propaga el movimiento ondulatorio. Su valor es el cociente de la longitud de onda y su período. 
 \end{itemize}
@@ -124,8 +124,8 @@ Suponga un resorte que cuelga del techo, en el extremo libre del resorte se cuel
     \begin{tikzpicture}[black!75,thick]
  
 % Supporting structure
-\fill [pattern = north west lines] (-3,0) rectangle ++(6,.2);
-\draw[thick] (-3,0) -- ++(6,0);
+\fill [pattern = north west lines](-3,0) rectangle ++(6,.2);
+\draw[thick](-3,0) -- ++(6,0);
  
 % Spring 1
 \draw
@@ -138,7 +138,7 @@ Suponga un resorte que cuelga del techo, en el extremo libre del resorte se cuel
         pre length=3mm,
         post length=3mm},
     decorate
-] (-1.5,0) -- ++(0,-2) 
+](-1.5,0) -- ++(0,-2) 
     node[midway,right=0.25cm,black]{$k$}; 
  % Spring 2
 \draw
@@ -151,7 +151,7 @@ Suponga un resorte que cuelga del techo, en el extremo libre del resorte se cuel
         pre length=3mm,
         post length=3mm},
     decorate
-] (1.5,0) -- ++(0,-3) 
+](1.5,0) -- ++(0,-3) 
     node[midway,right=0.25cm,black]{$k$}; 
  
 % Mass
@@ -160,19 +160,19 @@ Suponga un resorte que cuelga del techo, en el extremo libre del resorte se cuel
     minimum width=1cm,
     minimum height=0.75cm,
     anchor=north,
-    label=center:$m$] at (1.5,-3) {};
+    label=center:$m$] at(1.5,-3) {};
 
 %referencia
 
-\draw[-Stealth,color=black] (-5,-1) -- ++(0,1) node[right=0.2cm] {\(y\)};
-\draw[-Stealth,color=black] (-5,-1) -- ++(1,0) node[right=0.2cm] {\(x\)};
+\draw[-Stealth,color=black](-5,-1) -- ++(0,1) node[right=0.2cm] {\(y\)};
+\draw[-Stealth,color=black](-5,-1) -- ++(1,0) node[right=0.2cm] {\(x\)};
 
-\draw[dashed] (-3,-2) -- ++(6,0) node[right] {\(y=0\)};
+\draw[dashed](-3,-2) -- ++(6,0) node[right] {\(y=0\)};
  
-\draw[dashed] (-3,-3) -- ++(6,0) node[right] {\(y=-y_0\)};
+\draw[dashed](-3,-3) -- ++(6,0) node[right] {\(y=-y_0\)};
 %vectores
-\draw[-Stealth,color=red] (1.5,-3) -- ++(0,1) node[midway,right=0.3cm] {\(ky_0\)};
-\draw[-Stealth,color=red] (1.5,-3.75) -- ++(0,-0.8) node[midway,right=0.3cm] {\(mg\)};
+\draw[-Stealth,color=red](1.5,-3) -- ++(0,1) node[midway,right=0.3cm] {\(ky_0\)};
+\draw[-Stealth,color=red](1.5,-3.75) -- ++(0,-0.8) node[midway,right=0.3cm] {\(mg\)};
 
 \end{tikzpicture}
 \end{figure}
@@ -250,7 +250,7 @@ Para un sistema mas, para el que se conserva la energía se  cumple lo siguiente
 \end{align}
 reemplazando con la solución general del movimiento armónico \eqref{eq: solución-MAS-variante seno}
 \begin{align*}
-    E &= \frac{1}{2} m r^{2}\omega^{2} \cos^{2} (\omega t + \phi) + \frac{1}{2} k r^{2}\sen^{2}(\omega t + \phi), \quad \omega^{2} = \frac{k}{m} \\
+    E &= \frac{1}{2} m r^{2}\omega^{2} \cos^{2}(\omega t + \phi) + \frac{1}{2} k r^{2}\sen^{2}(\omega t + \phi), \quad \omega^{2} = \frac{k}{m} \\
     &= \frac{1}{2}k r^{2}
 \end{align*}
 También podemos igualar amabas energías máximas,
@@ -264,7 +264,7 @@ Podemos comprobar que la energía del sistema se mantiene constante, esto es
 \begin{align*}
     \frac{d}{dt} E =0, \\
     m\dot{x}\ddot{x} + kx\dot{x} = 0, \\
-    (m\ddot{x} + kx)\dot{x} = 0, 
+(m\ddot{x} + kx)\dot{x} = 0, 
 \end{align*}
 Ahora, como la ecuación de movimiento del sistema es precisamente \(m\ddot{x} + k x = 0\), podemos concluir que se conserva la energía
 \section{Oscilaciones en un circuito LC}
@@ -315,10 +315,10 @@ Con esta consideración podemos mostrar que cualquier sistema conservativo debie
 
 Para ello expresaremos el potencial series de Taylor al rededor del punto \(x=a\), con \(a\) un punto de equilibrio estable
 \begin{align*}
-    U(x) = U(a + \Delta x), \qquad \Delta x := (x-a)
+    U(x) = U(a + \Delta x), \qquad \Delta x :=(x-a)
 \end{align*}
 \begin{align*}
-    U(x) = U(a) + \frac{dU}{dx} \Bigg|_a \Delta x + \frac{1}{2!}  \frac{d^{2}U(x)}{dx^{2}} \Bigg|_a (\Delta x)^{2} + \mathcal{O}(\Delta x ^{3})
+    U(x) = U(a) + \frac{dU}{dx} \Bigg|_a \Delta x + \frac{1}{2!}  \frac{d^{2}U(x)}{dx^{2}} \Bigg|_a(\Delta x)^{2} + \mathcal{O}(\Delta x ^{3})
 \end{align*}
 Como \(a\) es un punto de equilibrio, el segundo término es nulo, como además es estable, el tercer término es positivo.
 
@@ -346,8 +346,8 @@ Donde \(\displaystyle \frac{d^{2}U(x)}{dx^{2}} \Bigg|_a\) recibe el nombre de co
 
 \section{Péndulo simple}
 \begin{tikzpicture}
-    \draw[-Stealth,color=black] (-5,-1) -- ++(0,1) node[right=0.2cm] {\(y\)};
-\draw[-Stealth,color=black] (-5,-1) -- ++(1,0) node[right=0.2cm] {\(x\)};
+    \draw[-Stealth,color=black](-5,-1) -- ++(0,1) node[right=0.2cm] {\(y\)};
+\draw[-Stealth,color=black](-5,-1) -- ++(1,0) node[right=0.2cm] {\(x\)};
 \end{tikzpicture}
 \begin{figure}[h!]
     \centering
@@ -360,7 +360,7 @@ Donde \(\displaystyle \frac{d^{2}U(x)}{dx^{2}} \Bigg|_a\) recibe el nombre de co
 El problema del péndulo es conveniente de tratar en coordenadas polares, para ellos definimos la transformación de coordenadas
 \begin{align*}
     x&= r\sen\theta\\
-    y&= -r\cos\theta, \qquad r \geq 0  \ \land \theta \in  (-\pi,\pi]
+    y&= -r\cos\theta, \qquad r \geq 0  \ \land \theta \in (-\pi,\pi]
 \end{align*}
 Definamos los vectores unitarios en nuestro sistema de coordenadas polares
 \begin{align*}
@@ -491,7 +491,7 @@ Con esto se puede despejar el periodo de un péndulo físico como
 \end{align*}
 Donde \(I_p\) corresponde al momento de incercia en el pivote, \(m\) es la masa del péndulo, \(d \) es la distancia del centro de masa al punto pivote y \(g\) la aceleración de gravedad
 \section{Superposición de oscilaciones}
-Existen distintas formas en las que movimientos armónicos pueden superponerse (interferencia), la clasificación y análisis de estas dependerá de la frecuencia y dirección de las oscilaciones
+Existen distintas formas en las que movimientos armónicos pueden superponerse(interferencia), la clasificación y análisis de estas dependerá de la frecuencia y dirección de las oscilaciones
 
 \subsection{Superposición de oscilaciones en la misma dirección/colineales } \label{subsec: superpocición de oscilaciones colineales}
 
@@ -506,8 +506,8 @@ El movimiento resultante responde al principio de superposición, es decir, corr
 Partiendo de que para cualquier par de números reales \(A\) y \(B\) es posible realizar la sustitución \(A= \alpha + \beta,  B= \alpha - \beta\)
 \begin{align*}
     &C_1\sen A + C_2\sen B \\
-     =& C_1\sen (\alpha +\beta) + C_2\sen (\alpha-\beta)\\
-    =& (C_1 + C_2)\sen\alpha\cos\beta + (C_1 - C_2)\sen\beta\cos\alpha
+     =& C_1\sen(\alpha +\beta) + C_2\sen(\alpha-\beta)\\
+    =&(C_1 + C_2)\sen\alpha\cos\beta +(C_1 - C_2)\sen\beta\cos\alpha
 \end{align*}
 Con
 \begin{align*}
@@ -516,15 +516,15 @@ Con
 De esta forma
 \begin{align*}
     &x_1(t) + x_2(t) =\\
-    &= (A_1 + A_2)\sen\left(\frac{(\omega_1 + \omega_2)t + \phi_1 + \phi_2}{2}\right)\cos\left(\frac{(\omega_1 - \omega_2)t + \phi_1 - \phi_2}{2}\right)\\
-     & \quad + (A_1 - A_2)\sen\left(\frac{(\omega_1 - \omega_2)t + \phi_1 - \phi_2}{2}\right)\cos\left(\frac{(\omega_1 + \omega_2)t + \phi_1 + \phi_2}{2}\right)
+    &=(A_1 + A_2)\sen\left(\frac{(\omega_1 + \omega_2)t + \phi_1 + \phi_2}{2}\right)\cos\left(\frac{(\omega_1 - \omega_2)t + \phi_1 - \phi_2}{2}\right)\\
+     & \quad +(A_1 - A_2)\sen\left(\frac{(\omega_1 - \omega_2)t + \phi_1 - \phi_2}{2}\right)\cos\left(\frac{(\omega_1 + \omega_2)t + \phi_1 + \phi_2}{2}\right)
 \end{align*}
 Si bien esta es la expresión más general, hay casos más sencillos que es interesante resaltar
 \subsubsection*{Caso \(\omega_1 = \omega_2 = \omega\) }
 \begin{align*}
     &x_1(t) + x_2(t) =\\
-    &= (A_1 + A_2)\sen\left( \omega t +\frac{ \phi_1 + \phi_2}{2}\right)\cos\left(\frac{ \phi_1 - \phi_2}{2}\right)\\
-     & \quad + (A_1 - A_2)\sen\left(\frac{ \phi_1 - \phi_2}{2}\right)\cos\left(\omega t +\frac{ \phi_1 + \phi_2}{2}\right)
+    &=(A_1 + A_2)\sen\left( \omega t +\frac{ \phi_1 + \phi_2}{2}\right)\cos\left(\frac{ \phi_1 - \phi_2}{2}\right)\\
+     & \quad +(A_1 - A_2)\sen\left(\frac{ \phi_1 - \phi_2}{2}\right)\cos\left(\omega t +\frac{ \phi_1 + \phi_2}{2}\right)
 \end{align*}
 
 Como \(\phi_1,\phi_2\) son constantes esta solución resulta en
@@ -533,7 +533,7 @@ Como \(\phi_1,\phi_2\) son constantes esta solución resulta en
 \end{align*}
 Lo que es simplemente otro movimiento oscilatorio de la misma frecuencia.\\
 
-Dentro de este caso es interesante notar que si \(A_1 = A_2\) y \(\phi_1 - \phi_2 = (2k+1)\pi\) entonces se obtiene una interferencia perfectamente destructiva.
+Dentro de este caso es interesante notar que si \(A_1 = A_2\) y \(\phi_1 - \phi_2 =(2k+1)\pi\) entonces se obtiene una interferencia perfectamente destructiva.
 
 \subsubsection*{Caso \(A_1 = A_2 = A\)}
 
@@ -563,7 +563,7 @@ Este tipo de superposición resulta en la formación de figuras en el plano la c
 
 \newpage
 \section{Oscilaciones amortiguadas}
-Corresponden a aquellas que surgen de algún sistema físico en el cual la velocidad de un cuerpo o partícula provoca una fuerza de resistencia en contra del movimiento y cuya magnitud es proporcional a rapidez (en el caso de un roce viscoso, puede variar, por ejemplo para la resistencia del aire la fuerza es proporcional a \(v^{2}\)).\\
+Corresponden a aquellas que surgen de algún sistema físico en el cual la velocidad de un cuerpo o partícula provoca una fuerza de resistencia en contra del movimiento y cuya magnitud es proporcional a rapidez(en el caso de un roce viscoso, puede variar, por ejemplo para la resistencia del aire la fuerza es proporcional a \(v^{2}\)).\\
 
 Aplicando la segunda ley de Newton para un cuerpo que oscila con la acción de un roce viscoso obtenemos la siguiente ecuación
 \begin{align}
@@ -583,7 +583,7 @@ Analicemos el polinomio característico asociado a la EDO
     \lambda^{2} + \gamma \lambda + \omega^{2}=0\\
     \rightarrow \lambda = \frac{- \gamma \pm \sqrt{\gamma^{2} - 4\omega^{2}}}{2}
 \end{align*}
-Entonces cuando \(\gamma^{2} - 4 \omega^{2} > 0\) obtenemos soluciones puramente reales (no hay oscilaciones) y las soluciones corresponden a las del tipo \textbf{sobreamortiguadas}\\
+Entonces cuando \(\gamma^{2} - 4 \omega^{2} > 0\) obtenemos soluciones puramente reales(no hay oscilaciones) y las soluciones corresponden a las del tipo \textbf{sobreamortiguadas}\\
 
 Cuando \(\gamma^{2} = 4\omega^{2}\) obtenemos soluciones reales con multiplicidad 2, lo que nos lleva al caso \textbf{críticamente amortiguado}\\
 
@@ -618,7 +618,7 @@ lo que implica que,
 Recordemos que la energía puede escribirse como
 \begin{align*}
     E = \frac{1}{2} m \dot{x}^{2} + \frac{1}{2} k x ^{2} = U_\text{max} \\
-    U_\text{max} = \frac{1}{2} k (A e^{-\gamma t /2})^{2} = \frac{1}{2}k A^{2} e^{-\gamma t}
+    U_\text{max} = \frac{1}{2} k(A e^{-\gamma t /2})^{2} = \frac{1}{2}k A^{2} e^{-\gamma t}
 \end{align*}
 (se considera siempre que la parte osciladora, ya sea el seno o coseno, equivalen a 1 para tener el desplazamiento máximo), Con esto una expresión general para la energía en este sistema sería
 \begin{align}
@@ -632,7 +632,7 @@ El exponente de la función que acota la oscilación a través del tiempo determ
 \end{align}
 Para entender bien esta definición consideremos la onda 
 \begin{align*}
-    x(t) = A e^{-\gamma t/2} \cos (\tilde{\omega }t)
+    x(t) = A e^{-\gamma t/2} \cos(\tilde{\omega }t)
 \end{align*}
 Para \(t= 0 \) la onda tiene su amplitud máxima de \(A\), luego para el siguiente punto equivalente en la oscilación requerimos que el coseno vuelva a su valor máximo, para ello igualamos
 \begin{align*}
@@ -672,7 +672,7 @@ Para entender bien que representa este valor, retomemos la solución al polinomi
     &= \frac{\gamma}{2} \pm \frac{\gamma}{2} \sqrt{1 - \frac{4 \omega^{2}}{\gamma^{2}}}\\
     &= \frac{\gamma}{2} \pm \frac{\gamma}{2} \sqrt{1 - 4Q^{2}}
 \end{align*}
-De modo que el valor del factor de calidad puede determinar directamente si el movimiento corresponde a un movimiento sub amortiguado (\(Q > 1/2\)), sobreamortiguado(\(Q< 1/2\)) o críticamente amortiguado (\(Q=1/2\))
+De modo que el valor del factor de calidad puede determinar directamente si el movimiento corresponde a un movimiento sub amortiguado(\(Q > 1/2\)), sobreamortiguado(\(Q< 1/2\)) o críticamente amortiguado(\(Q=1/2\))
 
 
 \subsubsection*{Perdida de energía por ciclo de oscilación}
@@ -722,16 +722,16 @@ De manera que si tenemos una onda/señal que tenga la forma
 \end{align*}
 la podemos trabajar como la parte real de una función compleja
 \begin{align*}
-    R(t) &= \text{Re} (V e^{i(\omega t + \phi)})\\
-    &= \text{Re} (V e^{i\phi} e^{i(\omega t)})
+    R(t) &= \text{Re}(V e^{i(\omega t + \phi)})\\
+    &= \text{Re}(V e^{i\phi} e^{i(\omega t)})
 \end{align*}
-En los casos donde trabajemos con ondas que posean la misma frecuencia \(\omega\), podemos trabajar únicamente con el número complejo que compaña la parte temporal. Este número recibe el nombre de fasor o representación fasorial, el cual ayuda a simplificar varios de los cálculos que involucren operaciones lineales entre senoides de la mismas frecuencia (sumas, restas, derivadas, integrales, multiplicación por un escalar)
+En los casos donde trabajemos con ondas que posean la misma frecuencia \(\omega\), podemos trabajar únicamente con el número complejo que compaña la parte temporal. Este número recibe el nombre de fasor o representación fasorial, el cual ayuda a simplificar varios de los cálculos que involucren operaciones lineales entre senoides de la mismas frecuencia(sumas, restas, derivadas, integrales, multiplicación por un escalar)
 \begin{align*}
     \bar{V} = V e^{i\phi} \tag{representación fasorial de \(V(t)\)}
 \end{align*}
 \subsection{Propiedades útiles en representación fasorial}
 \begin{align*}
-    \text{Arg} (a+ib ) = \tan^{-1} \left(\frac{b}{a}\right)
+    \text{Arg}(a+ib ) = \tan^{-1} \left(\frac{b}{a}\right)
 \end{align*}
 
 Se debe restar o sumar \(180^{\circ}\) en caso de que el complejo pertenezca al 2do o 3er cuadrante.
@@ -827,7 +827,7 @@ Son aquellas que toman la forma
 \begin{align}
     m\frac{d^{2}x}{dt^{2}} + b\frac{dx}{dt} + k x = F(t) \label{eq: Movimiento forzado}
 \end{align} 
-Esta corresponde a una EDO no homogénea, por lo tanto, poseerá una solución que consta de una parte homogénea más una parte particular ( \(x_h + x_p\)). Reescribiendo 
+Esta corresponde a una EDO no homogénea, por lo tanto, poseerá una solución que consta de una parte homogénea más una parte particular( \(x_h + x_p\)). Reescribiendo 
 
 \begin{align*}
     \frac{d^{2}x}{dt^{2}} + \gamma\frac{dx}{dt} + \omega^{2} x =\frac{F(t)}{m}
@@ -870,7 +870,7 @@ De modo que el fasor que representa nuestra solución es
 Está solución puede relacionarse directamente con la impedancia mecánica del sistema \eqref{eq: impedancia mecánica}
 \begin{align*}
     \bar{A} &= \frac{F_0}{k - \nu^{2}m + i b\nu} \\
-    &= \frac{-i F_0}{\nu (b + i(\nu m - k/\nu))} \\&= \frac{-i F_0}{\nu Z_m } 
+    &= \frac{-i F_0}{\nu(b + i(\nu m - k/\nu))} \\&= \frac{-i F_0}{\nu Z_m } 
 \end{align*}
 Ahora, este fasor nos interesa devolverlo a su forma polar de modo que podamos encontrar el módulo y desfase, para ello nos valemos del módulo de la impedancia
 \begin{align*}
@@ -882,19 +882,19 @@ Donde \(\theta \) corresponde al argumento de la impedancia mecánica. Este aná
 
 Luego la solución particular obtenida al regresar al dominio temporal es
 \begin{align*}
-    x_p(t) &= A(\nu) \cos (\nu t - 90^{\circ} - \theta) 
+    x_p(t) &= A(\nu) \cos(\nu t - 90^{\circ} - \theta) 
 \end{align*}
 \begin{align*}
-    \boxed{x_p(t)= A(\nu) \sen (\nu t - \theta)}
+    \boxed{x_p(t)= A(\nu) \sen(\nu t - \theta)}
 \end{align*}
 Podemos escribir la amplitud de la oscilación de forma explícita calculando el módulo de la impedancia mecánica
 \begin{align*}
     A(\nu ) = \frac{F_0 }{\nu \|Z_m\|}
 \end{align*}
 \begin{align*}
-    Z_m & = b + i (m\nu - k/\nu)\\
-    \|Z_m\|&= \sqrt{b^{2} + (m\nu - k/\nu)^{2} }\\
-    \nu \|Z_m\|&= \sqrt{(b\nu)^{2} + (m\nu^{2} - k)^{2} }\\
+    Z_m & = b + i(m\nu - k/\nu)\\
+    \|Z_m\|&= \sqrt{b^{2} +(m\nu - k/\nu)^{2} }\\
+    \nu \|Z_m\|&= \sqrt{(b\nu)^{2} +(m\nu^{2} - k)^{2} }\\
     &=  m \sqrt{\left(\gamma \nu\right)^{2} + \left(\nu^{2} - \nu_0^{2}\right)^{2} }
 \end{align*}
 \begin{align}
@@ -902,17 +902,17 @@ Podemos escribir la amplitud de la oscilación de forma explícita calculando el
 \end{align}
 La solución general sería en este caso
 \begin{align*}
-    x(t) = C e^{-\gamma/2 t} \sen(\omega t + \phi) + \frac{F_0}{\nu\|Z_m\|} \sen (\nu t - \theta)
+    x(t) = C e^{-\gamma/2 t} \sen(\omega t + \phi) + \frac{F_0}{\nu\|Z_m\|} \sen(\nu t - \theta)
 \end{align*}
 \begin{align*}
-    \dot{x}(t) = C\omega e^{-\gamma/2 t} \cos(\omega t + \phi)-\frac{\gamma }{2}C e^{-\gamma/2 t} \sen(\omega t + \phi) + \frac{F_0}{\|Z_m\|} \cos (\nu t - \theta)
+    \dot{x}(t) = C\omega e^{-\gamma/2 t} \cos(\omega t + \phi)-\frac{\gamma }{2}C e^{-\gamma/2 t} \sen(\omega t + \phi) + \frac{F_0}{\|Z_m\|} \cos(\nu t - \theta)
 \end{align*}
 Para tiempos lo suficientemente largos se puede aproximar a 
 \begin{align*}
-    x(t) = \frac{F_0}{\nu\|Z_m\|} \sen (\nu t - \theta)
+    x(t) = \frac{F_0}{\nu\|Z_m\|} \sen(\nu t - \theta)
 \end{align*}
 \begin{align*}
-      \dot{x}(t) = \frac{F_0}{\|Z_m\|} \cos (\nu t - \theta)
+      \dot{x}(t) = \frac{F_0}{\|Z_m\|} \cos(\nu t - \theta)
 \end{align*}
 Por lo que podemos ver que en tiempos largos el movimiento depende únicamente de la fuerza externa aplicada y su frecuencia.\\
 
@@ -921,7 +921,7 @@ Podemos analizar la amplitud del movimiento \eqref{eq: amplitud oscilador forzad
 Intentemos encontrar el máximo para la amplitud \(A(\nu)= \frac{F_0}{\nu\|Z_m\|}\), o puesto de otra forma, encontremos el mínimo de \(\nu \|Z_m\|\)
 
 \begin{align*}
-    \frac{d (\nu\|Z_m\|)}{d \nu} = 0\\
+    \frac{d(\nu\|Z_m\|)}{d \nu} = 0\\
     \frac{d}{d\nu} \nu \left(b^{2} + \left(m\nu - \frac{k}{\nu}\right)^{2}\right)^{1/2} = 0\\
     \frac{d}{d\nu}  \left(\nu^{2}b^{2} + \left(m\nu^{2} - k\right)^{2}\right)^{1/2} = 0\\
     \frac{2\nu b^{2} + 2(m\nu^{2} - k )2 m \nu }{2\left(\nu^{2}b^{2} + \left(m\nu^{2} - k\right)^{2}\right)^{1/2}} = 0\\
@@ -929,7 +929,7 @@ Intentemos encontrar el máximo para la amplitud \(A(\nu)= \frac{F_0}{\nu\|Z_m\|
 \end{align*}
 
 
-El valor que maximiza el desplazamiento (resonancia para el desplazamiento) es 
+El valor que maximiza el desplazamiento(resonancia para el desplazamiento) es 
 \begin{align*}
     \nu = 0 \quad \lor \quad \nu = \frac{k}{m} - \frac{b}{2m^{2}} = \omega_0 - \frac{b}{2m^{2}}
 \end{align*}
@@ -961,7 +961,7 @@ La potencia instantánea suministrada por la fuerza externa corresponde al produ
     P = \frac{dW}{dt} = \frac{dW}{dx}\frac{dx }{dt} = Fv
 \end{align*}
 \begin{align*}
-    P &= F_0 \cos \omega t  \frac{F_0}{\|Z_m\|}\cos (\omega t - \theta )\\
+    P &= F_0 \cos \omega t  \frac{F_0}{\|Z_m\|}\cos(\omega t - \theta )\\
     &= \frac{F_0^{2}}{\|Z_m\|}\cos^{2}\omega t \cos\theta + \cos \omega t \sen\omega t \sen\theta
 \end{align*}
 Luego, puede ser también de interés el estudiar la potencia promedio suministrada, la cual se define como sigue
@@ -997,7 +997,7 @@ por lo que la potencia promedio es mayor a medida que la impedancia sea un núme
     \includegraphics[width=6cm]{img/2 pendulos con resorte.png}
     \caption{2 Péndulos cuyas masa están unidas por un resorte}
 \end{figure}
-En este caso debemos nuevamente usar la aproximación \(\sen\theta \approx \theta\), además de considerar que la fuerza del resorte va siempre en la dirección angular (perpendicular a la cuerda/varilla) y se estira a lo largo de la circunferencia definida por cada péndulo, usando la segunda ley de Newton para rotaciones
+En este caso debemos nuevamente usar la aproximación \(\sen\theta \approx \theta\), además de considerar que la fuerza del resorte va siempre en la dirección angular(perpendicular a la cuerda/varilla) y se estira a lo largo de la circunferencia definida por cada péndulo, usando la segunda ley de Newton para rotaciones
 \begin{align*}
     I\ddot{\theta} = \tau
 \end{align*}
@@ -1035,11 +1035,11 @@ Este es un sistema de ecuaciones diferenciales acopladas, el cual puede resolver
 Sumando \eqref{eq: sistema 2 péndulos a} con \eqref{eq: sistema 2 péndulos b} se tiene
 
 \begin{align*}
-    \frac{d^{2}}{dt^{2}} (\theta_1 + \theta_2) + \omega_0^{2}(\theta_1 + \theta_2) = 0
+    \frac{d^{2}}{dt^{2}}(\theta_1 + \theta_2) + \omega_0^{2}(\theta_1 + \theta_2) = 0
 \end{align*}
 y de restar \eqref{eq: sistema 2 péndulos b} a \eqref{eq: sistema 2 péndulos a} se tiene
 \begin{align*}
-    \frac{d^{2}}{dt^{2}} (\theta_1-\theta_2) + \omega_0^{2}(\theta_1-\theta_2) + 2\omega_c^{2} (\theta_1-\theta_2) = 0
+    \frac{d^{2}}{dt^{2}}(\theta_1-\theta_2) + \omega_0^{2}(\theta_1-\theta_2) + 2\omega_c^{2}(\theta_1-\theta_2) = 0
 \end{align*}
 
 Con esto definimos las coordenadas
@@ -1050,11 +1050,11 @@ Con esto definimos las coordenadas
 Para obtener las ecuaciones desacopladas
 \begin{align*}
     \frac{d^{2}q_1}{dt^{2}}  + \omega_0^{2}q_1 = 0\\
-    \frac{d^{2}q_2}{dt^{2}}  + (\omega_0^{2} + 2\omega_c^{2} )q_2 = 0
+    \frac{d^{2}q_2}{dt^{2}}  +(\omega_0^{2} + 2\omega_c^{2} )q_2 = 0
 \end{align*}
 Las cuales son resolubles con los métodos previamente estudiados.
 \begin{align*}
-    q_1 &= A \sen (\omega_0 t + \phi_1)\\
+    q_1 &= A \sen(\omega_0 t + \phi_1)\\
     q_2 &= B \sen \left(\omega't + \phi_2\right), \qquad \omega' = \sqrt{\omega_0^{2} + 2\omega_c^{2}}
 \end{align*}
 Estos modos de nos permiten directamente obtener las ecuaciones de movimiento para cada  masa puesto que se puede revertir el cambio de coordenadas
@@ -1090,9 +1090,9 @@ y debemos ser cuidadosos en considerar todas las partes involucradas sin contar 
 
 Por ejemplo, para los dos péndulos unidos con un resorte debemos considerar la energía cinética de ambas masas, la energía potencial gravitacional de cada una y además la energía potencial elástica del resorte que las une.
 \begin{align*}
-    E= \frac{1}{2}mL (\theta_1^{2} + \theta_2^{2}) + mgL(\cos\theta_1 + \cos \theta_2) + kL^{2}(\theta_1 - \theta_2)^{2}
+    E= \frac{1}{2}mL(\theta_1^{2} + \theta_2^{2}) + mgL(\cos\theta_1 + \cos \theta_2) + kL^{2}(\theta_1 - \theta_2)^{2}
 \end{align*}
-{\color{red} REVISAR!!! (ojalá agregar ejemplos)}
+{\color{red} REVISAR!!!(ojalá agregar ejemplos)}
 
 \subsection{Método matricial  }
 

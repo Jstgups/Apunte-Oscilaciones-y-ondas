@@ -1,9 +1,9 @@
-PWD /home/gups/Escritorio/Udec/5to Semestre/Oscilaciones y ondas/mis apuntes talvez
+PWD /home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
-INPUT /home/gups/Escritorio/Udec/5to Semestre/Oscilaciones y ondas/mis apuntes talvez/OyO.tex
+INPUT /home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez/OyO.tex
 OUTPUT out/OyO.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
