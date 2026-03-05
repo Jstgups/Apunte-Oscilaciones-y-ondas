@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.2)  4 MAR 2026 22:05
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2025.7.2)  4 MAR 2026 22:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -734,4 +734,309 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
-LaTeX Font Inf
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Info: Redefining \. on input line 33.
+LaTeX Info: Redefining \% on input line 33.
+Package hyperref Info: Link coloring ON on input line 33.
+ (out/OyO.out) (out/OyO.out)
+\@outlinefile=\write4
+\openout4 = `OyO.out'.
+
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package pgfplots notification 'compat/show suggested version=true': document has been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: img/buena onda .jpeg Graphic file (type bmp)
+<img/buena onda .jpeg>
+ [1
+
+] (out/OyO.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+ [2])
+\tf@toc=\write5
+\openout5 = `OyO.toc'.
+
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+File: img/Wave_characteristics.svg.png Graphic file (type bmp)
+<img/Wave_characteristics.svg.png>
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
+
+ []
+
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 212--214
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[8]
+File: img/circuito LC.png Graphic file (type bmp)
+<img/circuito LC.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--291
+
+ []
+
+[9]
+File: img/posición de equilibrio.png Graphic file (type bmp)
+<img/posición de equilibrio.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
+
+ []
+
+[11]
+File: img/Pendulo xournal.png Graphic file (type bmp)
+<img/Pendulo xournal.png>
+ [12]
+Underfull \hbox (badness 10000) in paragraph at lines 424--425
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--437
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 443--445
+
+ []
+
+File: img/Momentos de inercia.png Graphic file (type bmp)
+<img/Momentos de inercia.png>
+[14]
+File: img/Pendulo fisico.png Graphic file (type bmp)
+<img/Pendulo fisico.png>
+
+Overfull \hbox (43.30414pt too wide) in paragraph at lines 494--495
+[]\TU/lmr/m/n/12 Existen distintas formas en las que movimientos armónicos pueden superponerse(interferencia),
+ []
+
+[15]
+Overfull \hbox (25.74556pt too wide) in paragraph at lines 496--496
+[]\TU/lmr/bx/n/14.4 Superposición de oscilaciones en la misma dirección/colineales 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 504--505
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 533--535
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 543--545
+
+ []
+
+File: img/Lissanjou.png Graphic file (type bmp)
+<img/Lissanjou.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 566--567
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 577--579
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 585--587
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
+
+ []
+
+[19]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 654.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\tau' on input line 654.
+
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 701--703
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 704--705
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 713--714
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 747--749
+
+ []
+
+[23] [24] [25] [26]
+Underfull \hbox (badness 10000) in paragraph at lines 916--918
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 919--920
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 935--937
+
+ []
+
+[27]
+File: img/amplitud forzada.png Graphic file (type bmp)
+<img/amplitud forzada.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 950--951
+
+ []
+
+[28]
+File: img/2 pendulos con resorte.png Graphic file (type bmp)
+<img/2 pendulos con resorte.png>
+ [29]
+File: img/Pendulo doble con resorte.png Graphic file (type bmp)
+<img/Pendulo doble con resorte.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1032--1034
+
+ []
+
+[30]
+File: img/modos normales péndulo.png Graphic file (type bmp)
+<img/modos normales péndulo.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1074--1075
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1077--1078
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 1088--1090
+
+ []
+
+[32] (out/OyO.aux
+LaTeX Info: Redefining \. on input line 11.
+LaTeX Info: Redefining \% on input line 11.
+)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2020/03/25>
+ ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `OyO.out' has not changed.
+(rerunfilecheck)             Checksum: 62C6694C7A9356C6F09D0A2773253735;9185.
+ ) 
+Here is how much of TeX's memory you used:
+ 37824 strings out of 476783
+ 907251 string characters out of 5802853
+ 1934627 words of memory out of 5000000
+ 59004 multiletter control sequences out of 15000+600000
+ 565753 words of font info for 76 fonts, out of 8000000 for 9000
+ 62 hyphenation exceptions out of 8191
+ 84i,13n,95p,1242b,836s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on out/OyO.xdv (32 pages, 410460 bytes).

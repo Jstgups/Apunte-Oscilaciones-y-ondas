@@ -1,0 +1,42 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{4}{section.1}%
+\contentsline {section}{\numberline {2}Características de una onda }{4}{section.2}%
+\contentsline {section}{\numberline {3}Oscilaciones}{5}{section.3}%
+\contentsline {section}{\numberline {4}Ecuación de movimiento para un oscilador armónico simple}{5}{section.4}%
+\contentsline {section}{\numberline {5}Velocidad y aceleración de un MAS(movimiento armónico simple)}{7}{section.5}%
+\contentsline {section}{\numberline {6}Energía en un oscilador}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Energía potencial de un oscilador}{8}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Energía cinética}{8}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Ecuación de la energía total}{9}{subsection.6.3}%
+\contentsline {section}{\numberline {7}Conservación de la energía y ecuación de movimiento}{9}{section.7}%
+\contentsline {section}{\numberline {8}Oscilaciones en un circuito LC}{9}{section.8}%
+\contentsline {section}{\numberline {9}Puntos de equilibrio y aproximación para identificar sistemas oscilantes}{10}{section.9}%
+\contentsline {section}{\numberline {10}Péndulo simple}{12}{section.10}%
+\contentsline {section}{\numberline {11}Péndulo físico y Momento de inercia}{13}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Centro de masa}{13}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Momento de inercia}{14}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Teorema de ejes paralelos(momento de inercia en un punto distinto al centro de masa)}{15}{subsection.11.3}%
+\contentsline {subsection}{\numberline {11.4}Péndulo físico}{15}{subsection.11.4}%
+\contentsline {section}{\numberline {12}Superposición de oscilaciones}{16}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Superposición de oscilaciones en la misma dirección/colineales }{16}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Superposición de oscilaciones perpendiculares}{17}{subsection.12.2}%
+\contentsline {section}{\numberline {13}Oscilaciones amortiguadas}{18}{section.13}%
+\contentsline {subsection}{\numberline {13.1}Frecuencia de un movimiento amortiguado}{19}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}Disipación de energía}{19}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Expresión general para la energía en el tiempo}{20}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Formas de medir el decaimiento de una onda}{20}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Decremento logarítmico}{20}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Tiempo de relajación \(\tau \)}{21}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}Factor de calidad}{21}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Representación Fasorial de Ondas}{22}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Propiedades útiles en representación fasorial}{23}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Impedancia eléctrica}{24}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Impedancia mecánica }{25}{subsection.15.3}%
+\contentsline {section}{\numberline {16}Oscilaciones forzadas}{25}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Solución homogénea}{25}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}Solución particular}{26}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Potencia suministrada por la fuerza externa }{28}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Osciladores acoplados}{29}{section.17}%
+\contentsline {subsection}{\numberline {17.1}Péndulos unidos por un resorte}{29}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Energía en el sistema acoplado}{32}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Método matricial }{32}{subsection.17.3}%

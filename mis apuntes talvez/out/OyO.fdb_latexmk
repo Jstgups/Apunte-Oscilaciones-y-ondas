@@ -1,12 +1,12 @@
 # Fdb version 4
-["xdvipdfmx"] 1772672722.28542 "out/OyO.xdv" "out/OyO.pdf" "out/OyO" 1772672723.08795 0
-  "out/OyO.xdv" 1772672722.16011 408652 4071fb4537fd070754ef30136a43d7b8 "xelatex"
+["xdvipdfmx"] 1772674529.56216 "out/OyO.xdv" "out/OyO.pdf" "out/OyO" 1772674530.32981 0
+  "out/OyO.xdv" 1772674529.43643 410460 cd1380e462d4c1f8a596cfc879fa3a65 "xelatex"
   (generated)
   "out/OyO.pdf"
   (rewritten before read)
-["xelatex"] 1772672720.58558 "/home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez/OyO.tex" "out/OyO.xdv" "OyO" 1772672723.08031 0
+["xelatex"] 1772674527.91378 "/home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez/OyO.tex" "out/OyO.xdv" "OyO" 1772674530.32415 0
   "/etc/texmf/web2c/texmf.cnf" 1742346911.20157 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez/OyO.tex" 1772672720.39814 54408 554c77e93abaae4143bd29ea61a3fc0c ""
+  "/home/gups/Escritorio/Apunte-Oscilaciones-y-ondas/mis apuntes talvez/OyO.tex" 1772674527.72826 54600 12134b24e8ed1eb50075cc279bc50f52 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
@@ -272,7 +272,7 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1751512664 9124359 51a66f34cdf01ef42237cdbd0700210f ""
-  "OyO.tex" 1772672720.39814 54408 554c77e93abaae4143bd29ea61a3fc0c ""
+  "OyO.tex" 1772674527.72826 54600 12134b24e8ed1eb50075cc279bc50f52 ""
   "img/2 pendulos con resorte.png" 1772671316.12835 33613 53cb5ebbb510a808ec4490bee8dcee6a ""
   "img/Lissanjou.png" 1772671316.12935 159100 b988aff5e6c3d37f6aef6076d1827ba0 ""
   "img/Momentos de inercia.png" 1772671316.13135 167060 dced295cbea4d22bc1aa84e6a1966a6e ""
@@ -285,9 +285,9 @@
   "img/circuito LC.png" 1772671316.13435 27397 0848fe0f99bed244cff8945715e7d4c3 ""
   "img/modos normales péndulo.png" 1772671316.13535 66740 2228b159d4577a3129d4b899888210b6 ""
   "img/posición de equilibrio.png" 1772671316.13535 31344 084f997d09aa402f16cc349754a7e8ef ""
-  "out/OyO.aux" 1772672722.15611 10043 e8b4ae729ea2fe8c3ef054d268389892 "xelatex"
-  "out/OyO.out" 1772672722.15911 9185 62c6694c7a9356c6f09d0a2773253735 "xelatex"
-  "out/OyO.toc" 1772672722.16011 3993 a99b527c7ab69008aae6021d64bad38f "xelatex"
+  "out/OyO.aux" 1772674529.43343 10043 b9859337fa56b7bef4dd438e40d31a7e "xelatex"
+  "out/OyO.out" 1772674529.43643 9185 62c6694c7a9356c6f09d0a2773253735 "xelatex"
+  "out/OyO.toc" 1772674529.43643 3993 a99b527c7ab69008aae6021d64bad38f "xelatex"
   (generated)
   "out/OyO.aux"
   "out/OyO.log"
